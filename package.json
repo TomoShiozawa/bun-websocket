@@ -1,0 +1,16 @@
+{
+  "name": "bun-test",
+  "module": "index.ts",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "server": "bun run --hot src/server.ts",
+    "client": "bun run --hot src/client.ts",
+    "benchmark": "bun run --hot src/benchmark.ts"
+  },
+  "type": "module"
+}
