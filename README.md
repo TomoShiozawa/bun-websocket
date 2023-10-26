@@ -33,3 +33,5 @@ bun run client
 // 引数からusernameの設定もできます
 bun run client Alice
 ```
+
+![実行サンプル](sample.gif)
